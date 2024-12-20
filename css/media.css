@@ -247,8 +247,15 @@
   }
 }
 
+@media screen and (max-width: 575px) {
+  .hero__data-guide {
+  }
+}
+
 @media screen and (max-width: 573px) {
-  .hero__data-policy {
+  .hero__data-policy,
+  .hero__data-guide,
+  .hero__data-terms {
     top: 30px;
     padding-top: 20px;
   }
@@ -294,7 +301,7 @@
 
 @media screen and (max-width: 484px) {
   .hero__data {
-    top: 15px;
+    /* top: 15px; */
     padding-bottom: 25px;
     padding-top: 35px;
   }
@@ -355,13 +362,15 @@
 }
 
 @media screen and (max-width: 374px) {
-  .hero__data {
-    padding: 15px;
+  .hero__data-policy,
+  .hero__data-terms {
+    top: 30px;
   }
 }
 
-/* @media screen and (max-width: 354px) {
-  .hero__title {
-    line-height: 40px;
+@media screen and (max-width: 345px) {
+  .hero__data-guide {
+    top: 30px;
+    padding: 15px;
   }
-} */
+}
