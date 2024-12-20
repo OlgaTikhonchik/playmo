@@ -215,8 +215,8 @@ article > h4,
   height: 80px;
   border-radius: 0;
   background: none;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 140px;
+  padding-right: 140px;
   margin: 0 auto;
 }
 
@@ -303,7 +303,12 @@ article > h4,
   height: auto;
   border-radius: 8px;
   background: #1d2d37;
-
+  background: linear-gradient(
+      225deg,
+      rgba(210, 34, 61, 0) 62.44%,
+      #d2223d 218.02%
+    ),
+    #0a0808;
   padding: 8px;
   z-index: 1000;
 }
